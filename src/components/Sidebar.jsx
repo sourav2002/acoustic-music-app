@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { HiOutlineHashtag, HiOutlineHome, HiOutlineMenu, HiOutlinePhotograph, HiOutlineUserGroup } from 'react-icons/hi';
 import { RiCloseLine } from 'react-icons/ri';
 
-import { logo } from '../assets';
+import { acousticLogo } from '../assets';
 
 const links = [
   { name: 'Discover', to: '/', icon: HiOutlineHome },
@@ -33,10 +33,9 @@ const Sidebar = () => {
 
   return (
     <>
-
       {/* md:flex hidden helps to hide sidebar when window size is <= mid  */}
       <div className="md:flex hidden flex-col w-[240px] py-10 px-4 bg-[#191624]">
-        <img src={logo} alt="logo" className="w-full h-14 object-contain" />
+        <img src={acousticLogo} alt="logo" className="w-full h-17 object-contain" />
         <NavLinks />
       </div>
 
@@ -53,11 +52,12 @@ const Sidebar = () => {
       {/* show the sidebar in small window and transition animation with gradient backgroud */}
       {/* automatically hide if screen size is more than mid */}
       <div className={`absolute top-0 h-screen w-2/3 bg-gradient-to-tl from-white/10 to-[#483D8B] backdrop-blur-xl z-10 p-6 md:hidden smooth-transition ${mobileMenuOpen ? 'left-0' : '-left-full'}`}>
-        <img src={logo} alt="logo" className="w-full h-14 object-contain"  />
+        <img src={acousticLogo} alt="logo" className="w-full h-17 object-contain" />
         <NavLinks handleClick={() => setMobileMenuOpen(false)} />
       </div>
     </>
   );
 };
 
+// eslint-disable-next-line eol-last
 export default Sidebar;

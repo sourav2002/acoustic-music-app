@@ -1,16 +1,12 @@
-/* eslint-disable no-alert */
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
-// const defaultVal = '67cfa22ab6mshb4a0468b9cbe5f0p1c0f76jsn6a3b1b3908a5';
-// const key = '67cfa22ab6mshb4a0468b9cbe5f0p1c0f76jsn6a3b1b3908a5';
-// const key1 = prompt('Paste your own shazam core api key', `${defaultVal}`);
-console.log(import.meta.env.VITE_SHAZAM_CORE_RAPID_API_KEY);
 export const shazamCoreApi = createApi({
   reducerPath: 'shazamCoreApi',
   baseQuery: fetchBaseQuery({
     baseUrl: 'https://shazam-core.p.rapidapi.com/v1',
     prepareHeaders: (headers) => {
-      headers.set('X-RapidAPI-Key', `${import.meta.env.VITE_SHAZAM_CORE_RAPID_API_KEY}`);
+      headers.set('X-RapidAPI-Key', import.meta.env.VITE_SHAZAM_CORE_RAPID_API_KEY);
+
       return headers;
     },
   }),

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "start" : "env-cmd -f .env.staging",
+    "start": "env-cmd -f .env.staging",
     "build:staging": "env-cmd -f .env.staging react-scripts build",
     "dev": "vite",
     "build": "vite build",
@@ -20,6 +20,7 @@
     "react-redux": "^8.0.2",
     "react-router-dom": "^6.3.0",
     "swiper": "^8.4.2",
+    "tailwind": "^4.0.0",
     "yarn": "^1.22.19"
   },
   "devDependencies": {
