@@ -1,11 +1,11 @@
 # Project Lyrics
 
 Develop an elegant React.js Music Application. 
-### Rapid API - [CLICK]("https://rapidapi.com/tipsters/api/shazam-core")
-### Geo API - [CLICK]("https://www.geoapify.com/")
+### Rapid API - [CLICK](https://rapidapi.com/tipsters/api/shazam-core)
+### Geo API - [CLICK](https://www.geoapify.com)
 
-<img src="https://github.com/sourav2002/acoustic-music-app/blob/master/src/assets/discoverPage.png" width=80% height=80%>
-
+![ScreenShot](https://github.com/sourav2002/acoustic-music-app/blob/master/src/assets/discoverpage.png)
+<img src="https://github.com/sourav2002/acoustic-music-app/blob/master/src/assets/discoverpage.png"/>
 # Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue.
