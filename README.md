@@ -4,8 +4,38 @@ Develop an elegant React.js Music Application.
 ### Rapid API - [CLICK](https://rapidapi.com/tipsters/api/shazam-core)
 ### Geo API - [CLICK](https://www.geoapify.com)
 
-![ScreenShot](https://github.com/sourav2002/acoustic-music-app/blob/master/src/assets/discoverpage.png)
-<img src="https://github.com/sourav2002/acoustic-music-app/blob/master/src/assets/discoverpage.png"/>
+<hr>
+
+### Discover Page (Home page)
+<img src="https://github.com/sourav2002/acoustic-music-app/blob/master/src/assets/discoverPage.png" width=70% height=60%>
+<hr>
+
+### Mobile Screen View of HomePage
+<img src="https://github.com/sourav2002/acoustic-music-app/blob/master/src/assets/mobileMain.png" width=20% height=20%>
+<hr>
+
+### Around You (Based on user current location)
+<img src="https://github.com/sourav2002/acoustic-music-app/blob/master/src/assets/aroundYou.png" width=50% height=10%>
+<hr>
+
+### Music Lyrics Page
+<img src="https://github.com/sourav2002/acoustic-music-app/blob/master/src/assets/lyricsPage.png" width=70% height=50%>
+<hr>
+
+### Mobile Screen View of Sidebar
+<img src="https://github.com/sourav2002/acoustic-music-app/blob/master/src/assets/mobileView.png" width=20% height=20%>
+<hr>
+
+### Search
+<img src="https://github.com/sourav2002/acoustic-music-app/blob/master/src/assets/search.png" width=20% height=20%>
+<hr>
+
+### Search in full screen
+<img src="https://github.com/sourav2002/acoustic-music-app/blob/master/src/assets/searchFull.png" width=70% height=50%>
+<hr>
+
+
+
 # Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue.
