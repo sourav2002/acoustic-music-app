@@ -18,7 +18,7 @@ const SongCard = ({ song, isPlaying, activeSong, data, i }) => {
   };
 
   return (
-    <div className="flex flex-col w-[250px] p-4 bg-white/5 bg-opacity-80 backdrop-blur-sm animate-slideup rounded-lg cursor-pointer">
+    <div className="flex flex-col max-w-[250px] p-4 bg-white/5 bg-opacity-80 backdrop-blur-sm animate-slideup rounded-lg cursor-pointer">
       {/* container containing image and onHover play or pause logo */}
       <div className="relative w-full h-56 group">
         {/* Play or pause logo will be visible to user when the user hover on song card. */}

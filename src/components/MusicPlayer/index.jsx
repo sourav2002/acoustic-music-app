@@ -24,7 +24,6 @@ const MusicPlayer = () => {
 
   const handlePlayPause = () => {
     if (!isActive) return;
-
     if (isPlaying) {
       dispatch(playPause(false));
     } else {
@@ -53,9 +52,11 @@ const MusicPlayer = () => {
   };
 
   return (
-    <div className="relative sm:px-12 px-8 w-full flex items-center justify-between mb-4">
+    <div className="relative px-8 w-full flex items-center justify-between">
       {/* track contains active song rounded image, song name and artist name */}
+
       <Track isPlaying={isPlaying} isActive={isActive} activeSong={activeSong} />
+
       <div className="flex-1 flex flex-col items-center justify-center">
         {/* controls contains repeat, prev song, play/pause, next song, shuffle */}
         <Controls

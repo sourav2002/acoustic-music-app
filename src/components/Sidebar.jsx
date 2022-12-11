@@ -6,8 +6,8 @@ import { RiCloseLine } from 'react-icons/ri';
 import { acousticLogo } from '../assets';
 
 const links = [
-  { name: 'Discover', to: '/', icon: HiOutlineHome },
-  { name: 'Around You', to: '/around-you', icon: HiOutlinePhotograph },
+  { name: 'Home', to: '/', icon: HiOutlineHome },
+  { name: 'Discover', to: '/discover', icon: HiOutlinePhotograph },
   { name: 'Top Artists', to: '/top-artists', icon: HiOutlineUserGroup },
   { name: 'Top Charts', to: '/top-charts', icon: HiOutlineHashtag },
 ];
