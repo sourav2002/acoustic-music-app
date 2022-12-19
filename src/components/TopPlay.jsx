@@ -37,7 +37,7 @@ const TopChartCard = ({
             {song?.title.substring(0, 30)}
           </p>
         </Link>
-        <Link to={`/artists/${song?.artists[0].adamid}`}>
+        <Link to={`/artists/${song?.artists}`}>
           <p className="text-base text-gray-300 mt-1 hover:text-blue-400 hover:font-bold">
             {song?.subtitle}
           </p>
@@ -126,7 +126,7 @@ const TopPlay = () => {
               style={{ width: '25%', height: 'auto' }}
               className="shadow-lg rounded-full animate-slideright"
             >
-              <Link to={`/artists/${artist?.artists[0].adamid}`}>
+              <Link to={`/artists/${artist?.artists}`}>
                 <img
                   src={artist?.images?.background}
                   alt="Name"
