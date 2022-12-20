@@ -4,8 +4,30 @@ Develop an elegant React.js Music Application.
 ### Rapid API - [CLICK](https://rapidapi.com/tipsters/api/shazam-core)
 ### Geo API - [CLICK](https://www.geoapify.com)
 
-![ScreenShot](https://github.com/sourav2002/acoustic-music-app/blob/master/src/assets/discoverpage.png)
-<img src="https://github.com/sourav2002/acoustic-music-app/blob/master/src/assets/discoverpage.png"/>
+<hr>
+## Main page
+<img src="https://github.com/sourav2002/acoustic-music-app/blob/master/src/assets/discoverPage.png" width="800" />
+<hr>
+
+## Search Song
+<img src="https://github.com/sourav2002/acoustic-music-app/blob/master/src/assets/searchFull.png" width="800" />
+<hr>
+
+## Lyrics Page
+<img src="https://github.com/sourav2002/acoustic-music-app/blob/master/src/assets/lyricsPage.png" width="800" />
+<hr>
+
+## Around You
+<img src="https://github.com/sourav2002/acoustic-music-app/blob/master/src/assets/aroundYou.png" width="800" />
+<hr>
+
+## Mobile Screen
+<img src="https://github.com/sourav2002/acoustic-music-app/blob/master/src/assets/mobileMain.png" width="300" />
+<img src="https://github.com/sourav2002/acoustic-music-app/blob/master/src/assets/mobileView.png" width="300" />
+<img src="https://github.com/sourav2002/acoustic-music-app/blob/master/src/assets/search.png" width="300" /> 
+<hr>
+
+
 # Contributing
 
 When contributing to this repository, please first discuss the change you wish to make via issue.
